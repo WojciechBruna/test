@@ -41,7 +41,7 @@ a.active, a:hover{
     color: black;
     position: absolute;
     height: 60px;
-    width: 320px;
+    width: 380px;
     line-height: 60px;
     font-size: 1.3em;
     font-weight: bolder;
@@ -83,7 +83,7 @@ section {
     .logo {
         position: relative;
        margin-left: 20px;
-       font-size: 8px;
+       font-size: 1.5rem;
      
 
      
