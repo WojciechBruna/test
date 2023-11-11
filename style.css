@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    height: 60px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    position: sticky;
+    
+}
+
+nav ul {
+    float: right;
+    margin-right: 55px;
+}
+
+nav ul li {
+   display: inline-block;
+   line-height: 60px;
+   margin: 0 8px;
+}
+
+nav ul li a {
+   color:black;
+   font-size: 0.9rem;
+   padding: 5px 10px;
+   border-radius: 5px;
+
+}
+
+a.active, a:hover{
+   text-decoration: underline;
+   text-decoration-color: red;
+}
+.logo {
+    color: black;
+    position: absolute;
+    height: 60px;
+    width: 320px;
+    line-height: 60px;
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-family: 'Alex Brush', cursive;
+     padding: 0 30px;
+    margin-left: 20px;
+
+}
+
+.checkbtn {
+    float: right;
+    line-height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    display: none;
+    
+
+}
+
+#check {
+    display: none;
+}
+
+section {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/15/20/53/bathtub-3609070_1280.jpg);
+    background-size: cover;
+    height: calc(90vh - 60px);
+}
+
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+        font-size: 30px;
+        color: black;
+    }
+
+    .logo {
+        position: relative;
+       margin-left: 20px;
+       font-size: 8px;
+     
+
+     
+    }
+
+    ul {
+       
+        background-color: white;
+        height: 60vh;
+        width: 30%;
+        position: fixed;
+        text-align: center;
+        padding: 50px 0;
+        transition: all .9s;
+        left: -100%;
+        margin-top: 60px;
+        
+        
+    }
+
+    nav ul li {
+        display: block;
+        
+    }
+    
+    nav ul li a {
+        font-size: 1rem;
+                
+    }
+    a:hover, a.active{
+       background: none;
+        color: red;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+
+    } 
+ 
+    
+    }
+
+   
