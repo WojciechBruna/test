@@ -144,7 +144,7 @@ h1.section-heading {
         background-color: white;
         height: 43vh;
         width: 40%;
-        position: fixed;
+        position: absolute;
         text-align: center;
         padding: 30px 5px;
         transition: all .9s;
@@ -171,7 +171,7 @@ h1.section-heading {
 
     #check:checked ~ ul {
         left: 0;
-        top: 30;
+
 
     } 
  
