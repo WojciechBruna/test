@@ -149,6 +149,7 @@ h1.section-heading {
         padding: 30px 5px;
         transition: all .9s;
         left: -100%;
+        margin-top: 60px;
       
         
         
@@ -170,6 +171,7 @@ h1.section-heading {
 
     #check:checked ~ ul {
         left: 0;
+        top: 30;
 
     } 
  
