@@ -142,14 +142,14 @@ h1.section-heading {
     ul {
        
         background-color: white;
-        height: 60vh;
-        width: 30%;
+        height: 43vh;
+        width: 40%;
         position: fixed;
         text-align: center;
-        padding: 50px 0;
+        padding: 30px 5px;
         transition: all .9s;
         left: -100%;
-        margin-top: 60px;
+        margin-top: 140px;
         
         
     }
