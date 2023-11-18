@@ -80,11 +80,12 @@ a.active, a:hover{
 }
 
 h1.section-heading {
-    font-size: 1.9rem;
+    font-size: 2rem;
     margin-top: 80px;
     margin-left: 80px;
     padding: 20px 20px;
-    text-decoration: underline;
+    text-decoration:none;
+    font-family: 'Alex Brush', cursive;
 }
 
 .abaut-container {
@@ -92,6 +93,7 @@ h1.section-heading {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 50px;
+    margin-top: 20px;
     padding: 40px 35px;
     border-left: 3px solid orange;
    
@@ -122,6 +124,80 @@ h1.section-heading {
     text-align: left;
 
 }
+
+
+
+.wrapper .single-card {    
+    height: 350px;
+    max-width: 300px;
+    margin: 50px auto 50px auto;
+    position: relative;
+    margin
+  
+}
+
+.wrapper {
+    perspective: 900px;
+}
+
+.single-card { 
+    text-align: center;
+    transition: all 1.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
+    transform-style:preserve-3d;
+}
+
+.wrapper:hover .single-card {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    width: 300px;
+    position: relative;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+}
+
+.front {
+    cursor: pointer;
+    height: 100%;
+    background-image: url(https://americangeneralcontractorllc.com/wp-content/uploads/2019/08/flooring-install-1100x543.jpg);
+    backface-visibility: hidden;
+    border-radius: 50px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.front h2 {
+    padding-top: 50%;
+    color: white;
+    font-weight: 500;
+    font-size: 3rem;
+    font-family: 'Alex Brush';
+}
+
+
+.back {
+    transform: rotateY(180deg);
+    position: absolute;
+    border-radius: 50px;
+    height: 350px;
+    background:  rgb(244, 244, 244); 
+}
+
+.content  {
+    padding-top: 50%;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+
+}
+
+
+
+
+
+
 
 @media (max-width: 858px) {
     .checkbtn {
