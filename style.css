@@ -15,7 +15,7 @@ nav  {
     height: 60px;
     width: 100%;
     background-color:rgb(255, 255, 255);
-    position: sticky;
+    position: sticky; 
     top: 0;
     left: 0;
     
@@ -130,9 +130,9 @@ h1.section-heading {
 .wrapper .single-card {    
     height: 350px;
     max-width: 300px;
-    margin: 50px auto 50px auto;
+    margin: 10px auto 50px auto;
     position: relative;
-    margin
+    
   
 }
 
@@ -142,7 +142,7 @@ h1.section-heading {
 
 .single-card { 
     text-align: center;
-    transition: all 0.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
+    transition: all 1.5s cubic-bezier(0.7, -.5, 0.3, 1.8);
     transform-style:preserve-3d;
 }
 
