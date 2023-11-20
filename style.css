@@ -18,7 +18,7 @@ nav  {
     position: sticky; 
     top: 0;
     left: 0;
-    
+    z-index: 1;
 }
 
 nav ul {
@@ -74,8 +74,9 @@ a.active, a:hover{
 }
 
 #home-section{
-    background-image: url(https://images.unsplash.com/photo-1523413307857-ef24c53571ae?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://diseasecalleddebt.com/wp-content/uploads/2022/05/Home-renovation.jpeg);
     background-size: cover;
+    background-position: center center;
     height: calc(90vh - 60px);
 }
 
@@ -128,16 +129,17 @@ h1.section-heading {
 
 
 .wrapper .single-card {    
-    height: 350px;
-    max-width: 300px;
-    margin: 10px auto 50px auto;
-    position: relative;
+    height: 300px;
+    max-width: 200px;
+    margin: 20px auto 150px auto;
+    position:relative;
     
   
 }
 
 .wrapper {
-   
+  display: flex;
+  background-color: rgb(244, 244, 244);
 }
 
 .single-card { 
@@ -146,52 +148,82 @@ h1.section-heading {
     transform-style:preserve-3d;
 }
 
-.wrapper:hover .single-card {
+.single-card:hover {
     transform: rotateY(180deg);
 }
 
 .front, .back {
-    width: 300px;
+    width: 200px;
     position: relative;
     top: 0;
     left: 0;
     backface-visibility: hidden;
 }
 
-.front {
+.card1 {
     cursor: pointer;
     height: 100%;
     background-image: url(https://americangeneralcontractorllc.com/wp-content/uploads/2019/08/flooring-install-1100x543.jpg);
     backface-visibility: hidden;
-    border-radius: 50px;
+    border-radius: 30px;
     background-size: cover;
-    background-position: center center;
+    background-position: center center; 
+}
+.card2 {
+    cursor: pointer;
+    height: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/21/01/43/painter-2247395_1280.jpg);
+    backface-visibility: hidden;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.card3 {
+    cursor: pointer;
+    height: 100%;
+    background-image: url(https://termalica.pl/wp-content/uploads/2020/05/xsciany-termalica-nosne-dzialowe01-1024x685.jpg.pagespeed.ic.StIVhqapS3.jpg);
+    backface-visibility: hidden;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.card4 {
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/07/10/49/electrician-1080554_1280.jpg);
+    cursor: pointer;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: center center; 
 }
 
 .front h2 {
     padding-top: 50%;
     color: white;
-    font-weight: 500;
-    font-size: 3rem;
-    font-family: 'Alex Brush';
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-family:'Courier New', Courier, monospace;
 }
 
 
 .back {
     transform: rotateY(180deg);
     position: absolute;
-    border-radius: 50px;
-    height: 350px;
+    border-radius: 30px;
+    height: 300px;
     background:  rgb(244, 244, 244); 
 }
 
 .content  {
-    padding-top: 50%;
+    padding-top: 60%;
     margin: 0;
     font-weight: 300;
     font-size: 1.2rem;
 
 }
+
 
 
 
@@ -215,10 +247,18 @@ h1.section-heading {
      
     }
 
+    #home-section{
+    background-image: url(https://images.unsplash.com/photo-1523413307857-ef24c53571ae?q=80&w=2487&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center center;
+    height: calc(90vh - 60px);
+}
+
+    
     ul {
        
         background-color: white;
-        width: 45%;
+        width: 25%;
         position: absolute;
         text-align: center;
         padding: 30px 5px;
@@ -249,6 +289,11 @@ h1.section-heading {
 
 
     } 
+    
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
  
     
     }
