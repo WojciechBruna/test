@@ -131,7 +131,7 @@ h1.section-heading {
 .wrapper .single-card {    
     height: 300px;
     max-width: 200px;
-    margin: 20px auto 150px auto;
+    margin: 20px auto 30px auto;
     position:relative;
     
   
@@ -293,6 +293,7 @@ h1.section-heading {
     .wrapper {
         flex-wrap: wrap;
     }
+
 
  
     
