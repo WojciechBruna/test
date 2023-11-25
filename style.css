@@ -278,10 +278,10 @@ h1.section-heading {
     ul {
        
         background-color: white;
-        width: 30%;
+        width: 38%;
         position: absolute;
         text-align: center;
-        padding: 30px 5px;
+        padding: 30px 20px;
         transition: all .9s;
         left: -100%;
         margin-top: 100px;
