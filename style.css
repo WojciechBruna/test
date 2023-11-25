@@ -83,8 +83,7 @@ a.active, a:hover{
 h1.section-heading {
     font-size: 2rem;
     margin-top: 10px;
-    margin-left: 50%;
-    margin-right: 50%;
+    margin-left: 40px;
     padding: 80px 20px;
     text-decoration:none;
     font-family: 'Alex Brush', cursive;
