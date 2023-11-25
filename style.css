@@ -237,10 +237,16 @@ h1.section-heading {
     border-radius: 7px;
     object-fit: cover;
 }
-
+ 
+img:hover { 
+    transform: scale(1.2);
+   
+}
 .photo-gallery {
     display: flex;
    gap: 20px 30px;
+   transition: 1s;
+ 
 }
 
 .column {
