@@ -405,9 +405,9 @@ img:hover {
 
     .logo {
        position: relative;
-       margin-left: 5px;
+       margin-left:  0px;
        font-size: 0.6rem;
-        width: 80%;
+        width: 90%;
     
     }
 
