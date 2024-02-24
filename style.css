@@ -60,7 +60,7 @@ a.active, a:hover{
 @keyframes ruch {
     0% { transform: translateX(0);
     }
-    100% {transform: translateX(100px);}
+    100% {transform: translateX(15%);}
 }
 
 
