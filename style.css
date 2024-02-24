@@ -60,7 +60,7 @@ a.active, a:hover{
 @keyframes ruch {
     0% { transform: translateX(0);
     }
-    100% {transform: translateX(15%);}
+    100% {transform: translateX(25%);}
 }
 
 
@@ -406,10 +406,15 @@ img:hover {
     .logo {
        position: relative;
        margin-left: 5px;
-       font-size: 1rem;
-     
+       font-size: 0.6rem;
+        width: 80%;
+    
+    }
 
-     
+    @keyframes ruch {
+        0% { transform: translateX(0%);
+        }
+        100% {transform: translateX(0%);}
     }
 
     #home-section{
