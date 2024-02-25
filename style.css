@@ -11,6 +11,27 @@ html {
     scroll-behavior: smooth;
 }
 
+.entry {
+    position: absolute;
+    flex-wrap: nowrap;
+    background-color: rgba(255,255,255, 0.7);
+    width: 600px;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 24px;
+    cursor: pointer;
+   
+
+
+}
+
+
 nav  {
     height: 60px;
     width: 100%;
@@ -65,10 +86,11 @@ nav ul li a {
     font-weight: bolder;
     font-family: 'Alex Brush ', cursive;
     padding: 0 30px;
-    margin-left: 5px;
+    margin-left: 20px;
     letter-spacing: 3px;
     animation: ruch 4s 1 ;
     animation-fill-mode: forwards;
+  
 
 }
 
@@ -103,6 +125,7 @@ nav ul li a {
     background-size: cover;
     background-position: center center;
     height: calc(90vh - 60px);
+  position: relative;
 }
 
 h1.section-heading {
@@ -396,11 +419,11 @@ img:hover {
 }
 
 .facebook img {
-    height: 50px;
-    width: 50px;
-    margin-left: 90%;
-    margin-top: -150px;
+    height: 30px;
+    width: 30px;
+   margin: 10px 10px;
     display: flex;
+    position: absolute;
     cursor: pointer;
 }
 
@@ -411,7 +434,7 @@ img:hover {
 
 
 
-@media (max-width: 858px) {
+@media (max-width: 1000px) {
     .checkbtn {
         display: block;
         font-size: 30px;
@@ -422,7 +445,8 @@ img:hover {
        position: relative;
        margin-left:  0px;
        font-size: 0.6rem;
-        width: 90%;
+        width: 70%;
+        
     
     }
 
@@ -487,8 +511,8 @@ img:hover {
     }
  
  .facebook img{
-    margin-left: 5%;
-    margin-top: -274px;
+    margin-left: 80%;
+    margin-top: -45px
  }
 
  h1.section-heading { 
